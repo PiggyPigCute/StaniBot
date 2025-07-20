@@ -1,8 +1,8 @@
 {
-  "name": "discord-getting-started",
+  "name": "stanibot",
   "private": true,
   "version": "1.0.0",
-  "description": "Discord example app",
+  "description": "Bot for the guild 'Élèves de St-Stan'",
   "main": "app.js",
   "type": "module",
   "engines": {
@@ -13,7 +13,7 @@
     "register": "node commands.js",
     "dev": "nodemon app.js"
   },
-  "author": "Shay DeWael",
+  "author": "PiggyPig",
   "license": "MIT",
   "dependencies": {
     "discord-interactions": "^4.0.0",
