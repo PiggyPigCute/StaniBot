@@ -1,0 +1,22 @@
+{
+  "name": "stanibot",
+  "version": "1.0.0",
+  "description": "Bot pour le serveur Élèves de St-Stan",
+  "main": "index.js",
+  "scripts": {
+    "test": "stest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiggyPigCute/StaniBot.git"
+  },
+  "author": "PiggyPig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiggyPigCute/StaniBot/issues"
+  },
+  "homepage": "https://github.com/PiggyPigCute/StaniBot#readme",
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}
