@@ -26,7 +26,7 @@ client.on("ready", () => {
 });
 
 function invare_coFeur_ijQuoi_lokMisi(misi) {
-    if (/.*[qQkK]+[uUwW]+([aA]+|[oO]+[iI]+)[ !\?\)\.]*$/.test(misi.content)) {
+    if (/.*[qQkK]+[uUwW]+([aA]+|[oO]+[iI]+)[ !\?\)\."]*$/.test(misi.content)) {
         misi.channel.send("feur")
     }   
 }
