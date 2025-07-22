@@ -1,10 +1,8 @@
 
 const { Client, GatewayIntentBits } = require("discord.js");
-const { readFileSync } = require("node:fs");
+const fs = require("node:fs");
 
-const TOKEN = readFileSync('token.txt', {
-    encoding: "utf-8"
-});
+const TOKEN = fs.readFileSync('token.txt', "utf-8");
 
 const client = new Client({
     intents: [
