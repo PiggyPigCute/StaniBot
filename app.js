@@ -13,7 +13,7 @@ const client = new Client({
 });
 
 console.log("Avor eiSveti");
-console.log(TOKEN);
+console.log(TOKEN+".");
 
 client.on("ready", () => {
     console.log("Prestazikial");
